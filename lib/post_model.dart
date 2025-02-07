@@ -1,5 +1,3 @@
-// ignore: unused_import
-import 'package:flutter/foundation.dart';
 class Post {
  final int userId;
  final int id;

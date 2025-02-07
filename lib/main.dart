@@ -3,8 +3,10 @@ import 'posts.dart';
 void main() {
  runApp(MyApp());
 }
-// ignore: use_key_in_widget_constructors
+
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
  @override
  Widget build(BuildContext context) {
  return MaterialApp(

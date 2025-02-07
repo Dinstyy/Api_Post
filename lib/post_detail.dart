@@ -17,13 +17,13 @@ class PostDetail extends StatelessWidget {
             fontWeight: FontWeight.bold,
             fontSize: 20,
             color: Colors.white,
-            letterSpacing: 1.5, // Menambahkan jarak antar huruf
+            letterSpacing: 1.5,
           ),
         ),
         backgroundColor: const Color(0xFF6C05EB),
         elevation: 0,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back, color: Colors.white), // Mengubah warna back icon menjadi putih
+          icon: const Icon(Icons.arrow_back, color: Colors.white),
           onPressed: () {
             Navigator.pop(context);
           },
