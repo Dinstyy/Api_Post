@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
  @override
  Widget build(BuildContext context) {
  return MaterialApp(
- title: 'HTTP',
+ title: 'Api Quran',
  debugShowCheckedModeBanner: false,
  theme: ThemeData(
  primarySwatch: Colors.blue,
